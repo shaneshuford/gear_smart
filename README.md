@@ -27,10 +27,9 @@ GraphAPISmartApp:
     
     
     
-
-
+The Server Side code still needs more work, including some security improvements.
     
-    
+
 
 
 No part of this code may be sold.
