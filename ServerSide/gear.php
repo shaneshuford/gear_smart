@@ -3,6 +3,7 @@
 
 	$PrimUrl = "http://shufordtech.com";
 
+	//Setup Cron Job to delete old keys
 	//DB: shufor5_gear
 	$mysqli = new mysqli("localhost", "", "", "");
 
@@ -12,7 +13,7 @@
 	}
 
 	include "print_nice.php";
-
+		
 	if(isset($_GET['k'])){
 		//Coming from the watch
 		$key = $_GET['k'];
@@ -20,6 +21,7 @@
 		//print_nice($data);
 		die($data['for_app']);	
 		//die('From the watch!');
+		//Delete KEY
 		die('');
 	}elseif(isset($_GET['r'])){
 		$key = $_GET['r'];
