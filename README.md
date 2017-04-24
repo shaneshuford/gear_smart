@@ -1,3 +1,8 @@
+
+[![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZNFFP8P7KSR78)
+
+
+
 # gear_smart
 SmartThings / Gear
 
@@ -19,6 +24,11 @@ ServerSide:
 GraphAPISmartApp:
   This directory holds the code that must be added here: https://graph.api.smartthings.com
     You will also generate your Client ID and Secret here to be used in the (ServerSide) code.
+    
+    
+    
+
+
     
     
 
