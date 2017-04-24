@@ -1,12 +1,18 @@
 <?php
-	error_reporting(0);	$PrimUrl = "http://shufordtech.com";
-		//DB: shufor5_gear
-	$mysqli = new mysqli("localhost", "", "", "");
+	error_reporting(0);
+
+	$PrimUrl = "http://shufordtech.com";
+
+	//DB: shufor5_gear
+	$mysqli = new mysqli("localhost", "", "", "");
+
 	if ($mysqli->connect_errno) {
 		//echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
 		die('connection failed');
-	}
-	include "print_nice.php";
+	}
+
+	include "print_nice.php";
+
 	if(isset($_GET['k'])){
 		//Coming from the watch
 		$key = $_GET['k'];
@@ -103,4 +109,5 @@
 		}
 		return $randomString;
 	}
-?>
+?>
+
