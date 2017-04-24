@@ -14,6 +14,13 @@ ShufordTechSmartThings:
   This directory holds the watch app, and requires Tizen Studio.
     Download Tizen Studio from here:
       https://developer.tizen.org/development/tizen-studio
+      
+      Permissions:
+        <tizen:privilege name="http://tizen.org/privilege/unlimitedstorage"/>
+        <tizen:privilege name="http://tizen.org/privilege/filesystem.read"/>
+        <tizen:privilege name="http://tizen.org/privilege/filesystem.write"/>
+        <tizen:privilege name="http://tizen.org/privilege/internet"/>
+        <tizen:privilege name="http://tizen.org/privilege/application.launch"/>
 
 ServerSide:
   This directory holds server side code to generate the access token and endpoint URLs.
