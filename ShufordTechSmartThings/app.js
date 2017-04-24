@@ -238,15 +238,13 @@ function RoutinePage_Buttons(){
 		    error: function(e){
 		    	console.log(e);
 		    	var Response = e.responseText;
-
-				try {
-					var obj = jQuery.parseJSON(Response);
-				} catch (e) {
-					//alert("There was an error!");
-					console.log(e);
-					//return;
-				}
-		    	
+			try {
+				var obj = jQuery.parseJSON(Response);
+			} catch (e) {
+				//alert("There was an error!");
+				console.log(e);
+				//return;
+			}
 		    	console.log(obj);
 		    	if(obj.message){
 		    		alert(obj.message);
