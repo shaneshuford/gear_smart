@@ -1,4 +1,5 @@
 
+
 [![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZNFFP8P7KSR78)
 
 
@@ -6,9 +7,8 @@
 # gear_smart
 SmartThings / Gear
 
-This page is not done, I've written a short description of each directory, but will go into detail on how to setup and install everything
-on another day.
 
+**This project is abandoned because no one seems to care about it. :)**
 
 ShufordTechSmartThings:
   This directory holds the watch app, and requires Tizen Studio.
